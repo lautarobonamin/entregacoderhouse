@@ -1,0 +1,212 @@
+.logo {
+    margin: 0;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px;
+    background-color: rgb(92, 84, 84);
+    position: sticky;
+    top: 10;
+    align-items: center;
+
+}
+
+ul {
+    list-style-type: none;
+
+}
+
+.fondo {
+    background-image: url(../img/suplementos.jpg);
+    height: 50vh;
+    background-size: cover;
+    margin-top: 0;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(209, 209, 203);
+}
+
+
+.textoCentro {
+    padding: 20px;
+    background-color: rgba(27, 27, 27, 0.658);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textoCentro h2 {
+    font-size: 4rem;
+    margin: 0;
+}
+.textoCentro p {
+    font-size: 2rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+li,
+a {
+    color: honeydew;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.listadoWeb li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    color: rgba(46, 46, 46, 0.692);
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+    margin: 0;
+    align-items: center;
+}
+
+/* PRODUCTOS DESTACADOS */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    background-color: rgb(247, 246, 245);
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, alpha);
+}
+
+
+.contProductos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.contenedores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.productoImagen {
+    width: 80%;
+    height: 250px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    object-fit: contain;
+}
+
+.productoTitulo {
+    font-size: 30;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.productoDescripcion {
+    margin-bottom: 0;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.productoPrecio {
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+.whats {
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+button {
+    background-color: rgb(112, 141, 165);
+    padding: 10px 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.formularioContacto {
+    text-align: center;
+    margin: 40px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(92, 84, 84);
+    size-adjust: 30px;
+}
+
+h3 {
+    color: black;
+    margin: 0;
+    text-align: center;
+
+}
+
+.redes  {
+    text-align: center;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+    margin: 0;
+    font-weight: 100;
+}
+.listadoFooter {
+    text-align: center;
+    display: inline;
+margin-top: 0;
+}
+
+@media (max-width:768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+}
