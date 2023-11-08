@@ -2,54 +2,39 @@
     margin: 0px;
     padding: 0px;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+body {
+    font-family: 'Inter', sans-serif;
+}
+.tamLogo {
+    width: 140px;
+}
 
-.logo {
-    margin: 0;
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+.encabezado {
+    border-bottom: 20px solid rgb(77, 78, 78);
+    background-color: rgb(255, 255, 255);
+}
+
+.fuentesNav {
+    color: rgb(7, 7, 58);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
 
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 5px;
-    background-color: rgb(92, 84, 84);
-    position: sticky;
-    top: 10;
-    align-items: center;
 
-}
 
 ul {
     list-style-type: none;
 
 }
-
-.fondo {
-    background-image: url(../img/suplementos.jpg);
-    height: 50vh;
-    background-size: cover;
-    margin-top: 0;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(209, 209, 203);
-}
-
-
-.textoCentro {
-    padding: 20px;
-    background-color: rgba(27, 27, 27, 0.658);
-    border-radius: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
 .textoCentro h2 {
     font-size: 4rem;
     margin: 0;
 }
+
 .textoCentro p {
     font-size: 2rem;
     margin-top: 0;
@@ -79,11 +64,7 @@ h1 {
     font-size: 50px;
 }
 
-body {
-    background-color: rgb(224, 224, 224);
-    margin: 0;
-    align-items: center;
-}
+
 
 /* PRODUCTOS DESTACADOS */
 
@@ -95,10 +76,18 @@ body {
 
 }
 
+.tituloProductos {
+ background-color: rgb(99, 99, 99);
+ color: rgb(255, 255, 255);
+ text-align: center;
+ text-transform: uppercase;
+ font-weight: bold;
+ padding: 40px;
+ margin: 0;
+}
 
 .productos {
-    display: flex;
-    flex-direction: column;
+
     align-items: center;
     padding: 0px;
     background-color: rgb(247, 246, 245);
@@ -112,11 +101,8 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.contenedores {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+
 
 
 .productoImagen {
@@ -191,7 +177,7 @@ h3 {
 
 }
 
-.redes  {
+.redes {
     text-align: center;
     margin: 0;
 }
@@ -201,10 +187,11 @@ h4 {
     margin: 0;
     font-weight: 100;
 }
+
 .listadoFooter {
     text-align: center;
     display: inline;
-margin-top: 0;
+    margin-top: 0;
 }
 
 @media (max-width:700px) {
@@ -213,10 +200,11 @@ margin-top: 0;
         flex-direction: column;
         text-align: center;
     }
+
     main {
         flex-direction: column;
         text-align: center;
-        
+
     }
 
 }
