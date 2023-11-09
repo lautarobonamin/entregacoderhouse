@@ -1,170 +1,145 @@
-* {
-    margin: 0px;
-    padding: 0px;
+.encabezado {
+  border-bottom: 20px solid rgb(77, 78, 78);
+  background-color: rgb(255, 255, 255);
 }
 
+.fuentesNav {
+  color: rgb(7, 7, 58);
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 20px;
+}
 
+.tamLogo {
+  width: 140px;
+}
+
+footer {
+  background-color: rgb(92, 84, 84);
+  size-adjust: 30px;
+}
+
+h3 {
+  color: black;
+  margin: 0;
+  text-align: center;
+}
+
+.redes {
+  text-align: center;
+  margin: 0;
+}
+
+h4 {
+  text-align: center;
+  margin: 0;
+  font-weight: 100;
+}
+
+.listadoFooter {
+  text-align: center;
+  display: inline;
+  margin-top: 0;
+}
+
+li, a {
+  color: honeydew;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: larger;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.row {
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  color: rgba(46, 46, 46, 0.692);
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.whats {
+  width: 50px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+button {
+  background-color: rgb(112, 141, 165);
+  padding: 10px 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  border-radius: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+.formularioContacto {
+  text-align: center;
+  margin: 40px;
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.tituloProductos {
+  background-color: rgb(99, 99, 99);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 40px;
+  margin: 0;
+}
+
+.contProductos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.productos {
+  margin-top: 60px;
+  margin-right: 0;
+  margin-bottom: 60px;
+}
+
+.card {
+  margin-right: 50px;
+  width: 405px;
+  margin-left: 23px;
+  margin-bottom: 30px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
 
 body {
   margin: 0;
 }
 
-.tamLogo {
-    width: 140px;
-}
-
-.encabezado {
-    border-bottom: 20px solid rgb(77, 78, 78);
-    background-color: rgb(255, 255, 255);
-}
-
-.fuentesNav {
-    color: rgb(7, 7, 58);
-    font-size: 20px;
-    text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: 20px;
-
-}
-
-.productosMarcas {
-    padding: 70px;
-    margin: 0;
-}
-
-.textoSobre {
-    text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
-
-.textoCentro h2 {
-    font-size: 4rem;
-    margin: 0;
-}
-
-.textoCentro p {
-    font-size: 2rem;
-    margin-top: 0;
-    text-align: center;
-}
-
-li,
-a {
-    color: honeydew;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    text-decoration: none;
-}
-
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
-
-.row {
-    margin-top: 30px;
-}
-
-h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    margin-top: 150px;
-    color: rgba(46, 46, 46, 0.692);
-    text-transform: uppercase;
-    font-size: 50px;
-}
-/* PRODUCTOS DESTACADOS */
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
-    margin-bottom: 100px;
-
-}
-.tituloProductos {
-    background-color: rgb(99, 99, 99);
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 40px;
-    margin: 0;
-}
-.contProductos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-}
-.productos {
-    margin-top: 60px;
-    margin-right: 0;
-    margin-bottom: 60px;
-}
-.whats {
-    width: 50px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-button {
-    background-color: rgb(112, 141, 165);
-    padding: 10px 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: antiquewhite;
-    border-radius: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-}
-.formularioContacto {
-    text-align: center;
-    margin: 40px;
-    text-decoration: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-/* footer */
-
-footer {
-    background-color: rgb(92, 84, 84);
-    size-adjust: 30px;
-}
-
-h3 {
-    color: black;
-    margin: 0;
-    text-align: center;
-
-}
-.redes {
-    text-align: center;
-    margin: 0;
-}
-h4 {
-    text-align: center;
-    margin: 0;
-    font-weight: 100;
-}
-
-.listadoFooter {
-    text-align: center;
-    display: inline;
-    margin-top: 0;
-}
-
-
-.card {
-    margin-right: 50px;
-    width: 405px;
-    margin-left: 23px;
-    margin-bottom: 30px;
-    
-}
-
+/*# sourceMappingURL=estilo.css.map */
