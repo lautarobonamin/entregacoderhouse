@@ -3,33 +3,33 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
     margin-bottom: 100px;
-  }
-  
-  .tituloProductos {
-    background-color: rgb(99, 99, 99);
-    color: rgb(255, 255, 255);
+}
+
+.tituloProductos {
+    background-color: $color-gris;
+    color: $color-blanco;
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     padding: 40px;
     margin: 0;
-  }
-  
-  .contProductos {
+}
+
+.contProductos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-  }
-  
-  .productos {
+}
+
+.productos {
     margin-top: 60px;
     margin-right: 0;
     margin-bottom: 60px;
-  }
-  
-  .card {
+}
+
+.card {
     margin-right: 50px;
     width: 405px;
     margin-left: 23px;
     margin-bottom: 30px;
-  }
+}
